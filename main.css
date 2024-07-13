@@ -44,6 +44,7 @@
     display: flex;
     gap: 3em;
     align-items: center;
+    margin-bottom: 8em;
 }
 .feature-love-desc{
     width: 50%;
@@ -100,4 +101,47 @@
 }
 .feature-button button p{
     font-size: 1.2em;
+}
+.facts-container{
+    width: 80%;
+    /* height: 500px; */
+    margin: 0 auto;
+    height: 800px;
+}
+.facts-header{
+    width: 50%;
+}
+.facts-header h1{
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+.facts-header p{
+    font-size: 0.8em;
+    opacity: 0.7;
+    padding-bottom: 4.5em;
+}
+.facts-card{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    border: 1.5px solid #ff8f0e70;
+    border-radius: 0.5em;
+    width: 13%;
+    height: 8em;
+    margin-bottom: 8em;
+}
+.card h1{
+    font-size: 1.8em;
+    padding: 0.18em 0;
+}
+.card h5{
+    font-size: 0.8em;
+    opacity: 0.6;
 }
