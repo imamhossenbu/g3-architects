@@ -69,6 +69,12 @@
         width: 50%;
         margin-bottom: 2em;
     }
+    .sponsor-header{
+        width: 100%;
+    }
+    .sponsor-header h1{
+        text-align: center;
+    }
 }
 
 
