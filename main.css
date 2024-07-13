@@ -171,8 +171,20 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
 }
 .sponsor-img img{
     width: 12%;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    margin-bottom: 10em;
+    background-color: #f9e0c59c;
+    border-radius: 5px;
+    text-align: center;
 }
