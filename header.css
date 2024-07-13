@@ -1,7 +1,7 @@
 .header-container{
     height: 100%;
      width: 100vw; 
-    background-color: rgba(210, 198, 174, 0.984);
+    background-color: #f9e0c59c;
     padding-top: 30px;
 }
 .nav-container{
@@ -41,13 +41,14 @@
     color: rgba(0, 0, 0, 0.542);
 }
 .button{
-    padding: 12px 20px ;
-    background-color: rgb(235, 156, 9);
+    padding: 14px 20px ;
+    background-color: #eb9c09;
     color: white;
     border-radius: 5px;
     outline: none;
     border: none;
     font-size: 15px;
+    font-weight: 600;
 }
 .header-image{
     padding: 30px;
