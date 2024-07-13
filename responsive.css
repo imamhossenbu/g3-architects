@@ -32,6 +32,30 @@
         margin-top: 2em;
         width: 100%;
     }
+    .features-love-container{
+        flex-direction: column;
+        width: 100%;
+        margin: 2em 0;
+    }
+    .feature-love-desc{
+        width: 80%;
+    }
+    .feature-header{
+        width: 100%;
+    }
+    .feature-title{
+        width: 100%;
+    }
+    .feature-love-img{
+        width: 80%;
+    }
+    .feature-button{
+        bottom: -2em;
+        left: -3em;
+    }
+    .feature-button button{
+        padding: 2em 2.5em;
+    }
 }
 
 
@@ -66,5 +90,25 @@
     .feature-desc{
         margin-top: 2em;
         width: 100%;
+    }
+    .features-love-container{
+        flex-direction: column;
+    }
+    .feature-love-desc{
+        width: 100%;
+    }
+    .feature-love-img{
+        width: 100%;
+    }
+}
+
+
+
+
+/* medium-large screen */
+@media screen and (min-width:768px) and (max-width:1000px){
+    .features-love-container{
+        width: 90%;
+        gap: 4em;
     }
 }
